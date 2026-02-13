@@ -1,5 +1,6 @@
 {
   "name": "cvwebsite",
+  "homepage": "https://stephen-rice-software.github.io/cv",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-device-sizes": "^1.0.5",
     "react-dom": "^19.2.0"
