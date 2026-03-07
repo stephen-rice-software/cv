@@ -61,7 +61,7 @@ function TechExp(){
                 <p className="text2">JSON</p>
                 <p className="text2">XML</p>
                 <p className="text2">Websocket</p>
-                <p className="text2">Spring boot</p>
+                <p className="text2">Spring framework / Spring boot</p>
                 <p className="text2">Tomcat</p>
                 <p className="text2">Hibernate</p>
                 <p className="text2">JSP</p>
@@ -72,6 +72,7 @@ function TechExp(){
                 <p className="text2">Visual Studio Code</p>
                 <p className="text2">IntelliJ IDEA</p>
                 <p className="text2">Android Studio</p>
+                <p className="text2">Windsurf (AI coding tool)</p>
 
 
             </Section>

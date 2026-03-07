@@ -13,7 +13,7 @@ function WorkHist(){
         <Section heading="April 2023 to present: Senior Java Developer at Earth Sciences New Zealand">
 
             <p className="text2">I started at GNS Science, which was later merged with NIWA to become Earth Sciences New Zealand.</p>
-            <p className="text2">As a member of the applications team under Lynley Smith, I have been involved with the maintenance of a number of legacy (mostly) Java applications. I played a major role in a team project involving a database migration from Oracle to PostgreSQL for all of our apps. I also helped with the development of a React-based web-application to help commercial growers assess costs related to geothermal heating.</p>
+            <p className="text2">As a member of the applications team under manager Lynley Smith, I have been involved with the maintenance of a number of legacy (mostly) Java applications. I played a major role in a team project involving a database migration from Oracle to PostgreSQL for all of our apps. Other app maintenance work has involved upgrading Java versions to 11 and more recently 25, upgrading hibernate and also moving apps to Spring boot. I also helped with the development of a React-based web-application to help commercial growers assess costs related to geothermal heating.</p>
 
         </Section>
 
