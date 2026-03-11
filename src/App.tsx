@@ -59,9 +59,9 @@ function App() {
                 <li className={page === "Formal Qualifications" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Formal Qualifications')}}>Formal Qualifications</li>
                 <li className={page === "Awards" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Awards')}}>Awards</li>
                 
-                <li className={page === "Hobbies and Interests" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Hobbies and Interests')}}>Hobbies and Interests</li>
+                <li className={page === "Hobbies" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Hobbies')}}>Hobbies</li>
                 <li className={page === "Training Courses" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Training Courses')}}>Training Courses</li>
-                <li className={page === "Publications and Patents" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Publications and Patents')}}>Publications and Patents</li>
+                <li className={page === "Publications & Patents" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Publications & Patents')}}>Publications & Patents</li>
                 <li className={page === "Github" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Github')}}>Github</li>
                 <li className={page === "Contact" ? "list-item-selected" : "list-item-not-selected"} onClick={()=>{setPage('Contact')}}>Contact</li>
 
@@ -81,10 +81,10 @@ function App() {
           : page === "Formal Qualifications" ? <Quals/>
           : page === "Awards" ? <Awards/>
           : page === "Training Courses" ? <Courses/>
-          : page === "Publications and Patents" ? <Pubs/>
+          : page === "Publications & Patents" ? <Pubs/>
           : page === "Github" ? <Github/>
           : page === "Contact" ? <Contact/>
-          : page === "Hobbies and Interests" ? <Hobbies/>
+          : page === "Hobbies" ? <Hobbies/>
 
           : <TechExp/>
 

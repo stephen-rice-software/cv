@@ -37,10 +37,10 @@ function Menu(props: Props){
                     <li onClick={()=>{props.setPage("Formal Qualifications"); setMenuOpen(false)}}>Formal Qualifications</li>
 
                     <li onClick={()=>{props.setPage("Awards"); setMenuOpen(false)}}>Awards</li>
-                    <li onClick={()=>{props.setPage("Hobbies and Interests"); setMenuOpen(false)}}>Hobbies and Interests</li>
+                    <li onClick={()=>{props.setPage("Hobbies"); setMenuOpen(false)}}>Hobbies</li>
                     <li onClick={()=>{props.setPage("Training Courses"); setMenuOpen(false)}}>Training Courses</li>
 
-                    <li onClick={()=>{props.setPage("Publications and Patents"); setMenuOpen(false)}}>Publications and Patents</li>
+                    <li onClick={()=>{props.setPage("Publications & Patents"); setMenuOpen(false)}}>Publications & Patents</li>
 
                     <li onClick={()=>{props.setPage("Github"); setMenuOpen(false)}}>Github</li>
                     <li onClick={()=>{props.setPage("Contact"); setMenuOpen(false)}}>Contact</li>

@@ -11,18 +11,6 @@ body{
 
 }
 
-.sidebar-list{
-  list-style-type: "✦ ";
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5vw;
-  
-  margin:0;
-
-
-}
-
 .header{
 
   width: 100vw;
@@ -48,7 +36,7 @@ body{
   color: white;
   text-shadow: 0 0 5px black;
   
-  font-size:4vw;
+  font-size:5vw;
   
   /* <weight>: Use a value from 100 to 900*/
 
@@ -98,7 +86,7 @@ body{
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size:1.5vw;
+  font-size:2vw;
   padding:0;
   margin:0;
 
@@ -110,7 +98,7 @@ body{
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size:1.5vw;
+  font-size:2vw;
   padding-top:1rem;
   margin:0;
   padding-bottom:0;
@@ -123,7 +111,7 @@ body{
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size:1.2vw;
+  font-size:1.5vw;
   margin-bottom:0;
 
   
@@ -131,356 +119,6 @@ body{
 }
 
 .text1, .github{
-
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:1.2vw;
-  padding-top:0;
-  margin:0;
-
-}
-
-.text2{
-
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:1vw;
-  padding-top:0;
-  margin-left:0;
-  margin-right:0;
-  margin-top:1rem;
-  margin-bottom:1rem;
-
-
-}
-
-.text3{
-
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:0.8vw;
-  padding-top:0;
-  margin-left:0;
-  margin-right:0;
-  margin-top:0;
-  margin-bottom:1rem;
-
-
-}
-
-.text4{
-
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:1vw;
-  padding-top:0;
-  margin-left:0;
-  margin-right:0;
-  margin-top:1rem;
-  margin-bottom:0;
-
-
-}
-
-ul {
-  
-  list-style-type: "✦ ";
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.5vw;
-  
-  
-
-}
-
-.section-heading{
-
-  /*background:orange;*/
-  font-family: "Arsenal", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size:1.2vw;
-
-}
-
-.youtube-list{
-
-  list-style-type: "✦ ";
-  margin:0;
-
-
-}
-
-.youtube-list li {
-
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2vw;
-}
-
-a {
-  
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: black;
-  font-size: 1.2vw;
-
-  
-  text-decoration:none;
-
-}
-
-/* unvisited link */
-a:link {
-  color: black;
-}
-
-/* visited link */
-a:visited {
-  color: #89986D;
-}
-
-/* mouse over link */
-a:hover {
-  color: white;
-}
-
-/* selected link */
-a:active {
-  color: white;
-}
-
-ul li::marker {
-  font-size: 1vw; /* Set a specific size in pixels (px) */
-  /* or use relative units like em or rem for scalability */
-  /* font-size: 1.5em; */
-  color: black; /* You can also change the color */
-}
-
-.quoted-text{
-
-  font-family: "Arsenal", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-  font-size:1.5vw;
-
-}
-
-.awards-container{
-
-  display:flex;
-  width:100%;
-  height:60vh;
-  background:#89986D;
-  align-items: center;
-  
-
-
-
-}
-
-.awards-left{
-
-  flex:1;
-  
-  align-items: center;
-  display: flex;
-  overflow:hidden;
-
-
-}
-
-.awards-left-inner{
-  flex:1;
-  
-}
-
-.awards-right{
-
-  flex:1;
-  background:#89986D;
-  color: white;
-  padding: 1rem;
-  overflow-y:auto;
-  
-
-
-
-}
-
-.awards-image{
-
-  max-width: 100%;
-  height: auto;
-  
-
-
-}
-
-.awards-heading{
-
-  font-family: "Arsenal", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.2vw;
-  color:black;
-  margin-top:0;
-  
-
-
-}
-.awards-text{
-  font-family: "Arsenal", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 0.8vw;
-  color:white;
-
-
-}
-
-.photo-grid{
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap:0.3em;
-  margin-top: 0.5em;
-
-
-}
-
-#photo1{
-
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  
-
-
-}
-
-#photo2{
-
-  grid-column: 2 / 3;
-  
-  grid-row: 1 / 2;
-  
-
-}
-
-#photo3{
-
-  grid-column: 1 / 2;
-  
-  grid-row: 2 / 3;
- 
-
-
-}
-
-#photo4{
-
-  grid-column: 2 / 3;
-  
-  grid-row: 2 / 3;
-  
-
-
-}
-
-@media screen and (max-width: 1800px) {
-  
-  .sidebar-list{
-    list-style-type: "✦ ";
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2vw;
-    
-    margin:0;
-
-
-  }
-  .all{
-    display: flex;
-    width:100vw;
-    min-height:70vh; 
-    
-    /*flex-direction: column;*/
-
-  }
-
-  
-  .sidebar{
-
-    flex: 1;
-    
-    background: #9CAB84;
-    color: white;
-    padding-top:1rem;
-
-  }
-
-  .main{
-
-    flex:4;
-    /*background:#e6e2d3;*/
-    background: #f6f0d7;
-    color:black;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top:0;
-
-
-  }
-
-  .heading1{
-
-    font-family: "Arsenal", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size:2vw;
-    padding:0;
-    margin:0;
-
-
-  }
-
-  
-
-  .heading2{
-
-      font-family: "Arsenal", sans-serif;
-      font-weight: 700;
-      font-style: normal;
-      font-size:2vw;
-      padding-top:1rem;
-      margin:0;
-      padding-bottom:0;
-      
-      
-  }
-
-  .heading3{
-
-    font-family: "Arsenal", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size:1.5vw;
-    margin-bottom:0;
-
-    
-    
-  }
-
-  .text1, .github{
 
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
@@ -572,11 +210,8 @@ ul {
   font-style: normal;
   font-size: 2vw;
 }
-  
 
- 
-
-  a {
+a {
   
   font-family: "Arsenal", sans-serif;
   font-weight: 400;
@@ -589,40 +224,39 @@ ul {
 
 }
 
-  ul li::marker {
-    font-size: 1.2vw; /* Set a specific size in pixels (px) */
-    /* or use relative units like em or rem for scalability */
-    /* font-size: 1.5em; */
-    color: black; /* You can also change the color */
-  }
+/* unvisited link */
+a:link {
+  color: black;
+}
 
+/* visited link */
+a:visited {
+  color: #89986D;
+}
 
-  .quoted-text{
-
-    font-family: "Arsenal", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size:2vw;
-
-  }
-
-
-  .header-text{
-
-  
+/* mouse over link */
+a:hover {
   color: white;
-  text-shadow: 0 0 5px black;
-  
-  font-size:5vw;
-  
-  /* <weight>: Use a value from 100 to 900*/
+}
 
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+/* selected link */
+a:active {
+  color: white;
+}
 
+ul li::marker {
+  font-size: 1.2vw; /* Set a specific size in pixels (px) */
+  /* or use relative units like em or rem for scalability */
+  /* font-size: 1.5em; */
+  color: black; /* You can also change the color */
+}
 
+.quoted-text{
+
+  font-family: "Arsenal", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:2vw;
 
 }
 
@@ -699,7 +333,7 @@ ul {
 
 }
 
-  .photo-grid{
+.photo-grid{
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -745,10 +379,6 @@ ul {
   grid-row: 2 / 3;
   
 
-
-}
-
- 
 
 }
 
@@ -1659,7 +1289,16 @@ li:hover{
 
 }
 
+.sidebar-list{
+  list-style-type: "✦ ";
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+  margin:0;
 
+
+}
 
 .sidebar-list li:hover {
   color: black;
